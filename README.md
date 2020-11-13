@@ -16,8 +16,15 @@ Tools that we need for this project:
 
 > pip3 install tensorflow
 
-If you are starting it for the first time or want to rerun the training process, you should put x in try block as shown in the image below
-![alt text](home/anuragjanghala/Desktop/ss1.png)
+If you are starting it for the first time or want to rerun the training process, you should put x in try block as shown below:
+```
+try:
+    x
+    model.load("model.tflearn")
+except:
+    model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
+    model.save("model.tflearn")
+```
 then you can remove x once model is trained.
 
 cammand for running the file in terminal:
