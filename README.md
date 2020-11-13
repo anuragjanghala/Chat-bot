@@ -1,5 +1,5 @@
 # Chat-bot
-**before staring main.py file you should've have some pre-installed tools**
+**Before starting main.py file you should install some tools**
 
 Commands for installing python and pip are:
 > sudo apt-get install python3
@@ -16,7 +16,7 @@ Tools that we need for this project:
 
 > pip3 install tensorflow
 
-If you are starting it for the first time or want to rerun the training process, you should put x in try block as shown below:
+If you are starting it for the first time or want to re-run the training process, you should put x in try block as shown below:
 ```
 try:
     x
@@ -27,10 +27,10 @@ except:
 ```
 then you can remove x once model is trained.
 
-cammand for running the file in terminal:
+for running the file in terminal:
 > python3 main.py
 
-then it will look like this:
+then in terminal it will look like this:
 ```
 start talking with the bot (type quit to stop)!
 You: hello
