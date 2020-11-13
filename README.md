@@ -28,4 +28,24 @@ except:
 then you can remove x once model is trained.
 
 cammand for running the file in terminal:
-> python main.py
+> python3 main.py
+
+then it will look like this:
+```
+start talking with the bot (type quit to stop)!
+You: hello
+Hi there, how can I help?
+You: whats your age
+22 years young!
+You: whats your name
+You can call me django.
+You: im here to buy something
+I didn't get that, try again
+You: buy something
+I didn't get that, try again
+You: whats on menu
+I didn't get that, try again
+You: whats on the menu
+u should buy some books to read
+You: quit
+```
